@@ -15,7 +15,7 @@
 
 1.  **Clone Harta Karun Ini:**
     ```bash
-    git clone [https://github.com/USERNAME_ANDA/NAMA_REPO_ANDA.git](https://github.com/USERNAME_ANDA/NAMA_REPO_ANDA.git)
+    git clone https://github.com/Nocx117/Kullyeah.git
     ```
 2.  **Masuk ke Dimensi Lain:**
     ```bash
