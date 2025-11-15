@@ -36,6 +36,12 @@ def logic():
      except:
           pass
 
+def clear_cache():
+     global sisi, panjang, lebar, jari_jari
+     sisi = None
+     panjang = None
+     lebar = None
+     jari_jari = None
 
 def olah_angka():
      for i in list(cek):
@@ -59,24 +65,37 @@ def lingkaran():
      return luas
 
 def persegi_panjang():
-     print("luas persegi panjangnya", panjang * lebar)
-     return panjang * lebar
+     try:
+          print("luas persegi panjangnya", panjang * lebar)
+          return panjang * lebar
+     except NameError:
+          if panjang != None:
+               print("Kami tidak bisa menghitung luas persegi panjang karena lebar belum diinputkan")
+          try:
+               if lebar != None:
+                    print("Kami tidak bisa menghitung luas persegi panjang karena panjang belum diinputkan")
+          except NameError:
+               pass
      
 def inputannya():
      global inputan
-     print("Silahkan menginputkan manual sisi/panjang/lebar/tinggi/jari jari/alas bangun datar yang ingin dihitung luasnya cth: sisi=5 atau jari jari = 7\nEnnter untuk keluar")
+     print("Silahkan menginputkan manual sisi/panjang/lebar/tinggi/jari jari/alas bangun datar yang ingin dihitung luasnya\ncth: sisi=5 atau jari jari = 7\nEnter untuk keluar\n")
      while True:
           inputan = input("")
           cek_inputan()
           if inputan == "":
                break
 
-inputannya()
-logic()
-ulang = input("Apakah ingin menghitung lagi? (y/n): ")
-if ulang.lower() == "n":
-     print("Terimakasih")
-     print("="*35)
-else:
-     inputannya()
-    
+if __name__== "__main__":
+     while True:
+          inputannya()
+          logic()
+          clear_cache()
+          ulang = input("Apakah ingin menghitung lagi? (y/n): ")
+          if ulang.lower() == "n" or ulang == "":
+               print("Terimakasih")
+               print("="*35)
+               break
+          else:
+               continue
+          
