@@ -79,7 +79,7 @@ def persegi_panjang():
      
 def inputannya():
      global inputan
-     print("Silahkan menginputkan manual sisi/panjang/lebar/tinggi/jari jari/alas bangun datar yang ingin dihitung luasnya\ncth: sisi=5 atau jari jari = 7\nEnter untuk keluar\n")
+     print("Silahkan menginputkan manual sisi/panjang/lebar/tinggi/jari jari/alas bangun datar yang ingin dihitung luasnya\ncth: sisi 5 atau jari jari = 7\nEnter untuk keluar\n")
      while True:
           inputan = input("")
           cek_inputan()
