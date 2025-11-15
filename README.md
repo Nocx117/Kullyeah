@@ -2,14 +2,11 @@
 
 ---
 
-### 👾 Deskripsi Proyek: Jejak Digital Kegilaan Akademis 👾
+### 👾 Ga tau Bang 👾
 
-> 👋 **PERINGATAN!** Proyek ini adalah **sekadar *dump* atau 'buangan' sembarangan** dari masa-masa kelam penuh kafein selama mata kuliah **Algoritma dan Pemrograman (Alpro)**! 😱
+> 👋 **PERINGATAN!** cuman tugas dari matkul **Algoritma dan Pemrograman (Alpro)**! 😱
 >
-> Di sini Anda akan menemukan kode Python yang berusaha, mungkin agak *ngos-ngosan*, untuk menghitung luas dan keliling dari **Bangun Datar** yang polos. Jangan berharap kesempurnaan, karena pada saat kode ini ditulis, *mood* dan fokus programmer-nya (yaitu saya sendiri) sedang beradu dengan batas *deadline*!
->
-> 🚀 Anggap saja ini sebagai **artefak sejarah** yang membuktikan bahwa saya *setidaknya* pernah mencoba. **Apakah kodenya bagus?** Mungkin. **Apakah kodenya berjalan?** *Hopefully.* **Apakah ini *best practice*?** 🤪 **Tentu saja tidak!** Ini adalah monumen kehancuran estetika kode demi nilai C!
->
+> anu bang ini anu, buat ngitung bangun datar tapi inputannya terserah kw
 > *Disclaimer: Segala bentuk bug dan error adalah bagian dari 'seni' yang tidak disengaja.* 🖼️
 
 ---
